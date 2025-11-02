@@ -1,0 +1,11 @@
+name = "infinity-ce"
+compatibility_date = "2025-11-02"
+
+[site]
+bucket = "."
+entry-point = "workers-site"
+
+# 如果你的域名是 school-new.site，添加路由配置
+[[routes]]
+pattern = "school-new.site/*"
+zone_name = "school-new.site"
